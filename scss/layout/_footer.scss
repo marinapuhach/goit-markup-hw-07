@@ -1,0 +1,64 @@
+.footer {
+  background-color: var(--background-color);
+}
+
+.adress {
+  font-style: normal;
+}
+
+.adress-item {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+
+.footer-tel,
+.footer-mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  transition-property: var(--accent-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+  color: var(--accent-color);
+}
+
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--accent-color);
+}
+
+.adress-item:hover,
+.adress-item:focus {
+  color: var(--accent-color);
+}
+
+.footer-list {
+  margin-bottom: 9px;
+}
+
+.join {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--header-color);
+  margin-bottom: 20px;
+  padding-top: 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-join {
+  margin-left: 70px;
+}

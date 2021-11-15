@@ -1,0 +1,22 @@
+.advantages-list {
+  display: flex;
+}
+
+.advantages-item-size {
+  width: 270px;
+  height: 101px;
+}
+
+.advantages-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.advantages-rect {
+  display: flex;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}

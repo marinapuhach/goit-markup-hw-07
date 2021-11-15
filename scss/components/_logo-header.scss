@@ -1,0 +1,51 @@
+.header-logo {
+  margin-right: 93px;
+}
+
+.web {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+
+.studio {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--primary-title-color);
+}
+
+.menu-studio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-title-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.menu-studio.current {
+  color: var(--accent-color);
+}
+
+.menu-studio.current::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  height: 4px;
+  border-radius: 2px;
+  bottom: -32px;
+  display: block;
+  background-color: var(--accent-color);
+}
+
+.menu-studio:hover,
+.menu-studio:focus {
+  color: var(--accent-color);
+}
